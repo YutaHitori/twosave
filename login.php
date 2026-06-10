@@ -8,7 +8,6 @@
 </head>
 <body>
 <?php
-echo password_hash('safa', PASSWORD_DEFAULT);
 if (isset($_COOKIE['user'])) {
     header("Location: index.php");
     exit;
